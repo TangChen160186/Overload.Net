@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OvDebug\OvDebug.csproj" />
+    <ProjectReference Include="..\OvMath\OvMath.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="irrKlang.NET4">
+      <HintPath>..\Reference\irrKlang.NET4.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

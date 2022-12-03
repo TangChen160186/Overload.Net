@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="OvCore\Helpers\" />
+    <Folder Include="OvCore\ResourceManagement\" />
+    <Folder Include="OvCore\Resources\" />
+    <Folder Include="OvCore\SceneSystem\" />
+    <Folder Include="OvCore\Scripting\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OvAudio\OvAudio.csproj" />
+    <ProjectReference Include="..\OvDebug\OvDebug.csproj" />
+    <ProjectReference Include="..\OvMath\OvMath.csproj" />
+    <ProjectReference Include="..\OvPhysics\OvPhysics.csproj" />
+    <ProjectReference Include="..\OvRendering\OvRendering.csproj" />
+  </ItemGroup>
+
+</Project>
